@@ -6,6 +6,8 @@ Aplicação desktop profissional para **aprender, simular, experimentar e compre
 
 > Learn. Simulate. Experiment. Understand.
 
+![screen](tela.png)
+
 ## O que é
 
 O Data Science Laboratory é um **laboratório interativo** com **36 experimentos** que executam matemática real (sem resultados falsos ou "fake AI"):
