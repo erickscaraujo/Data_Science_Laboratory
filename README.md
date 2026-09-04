@@ -1,6 +1,41 @@
-# 🧪 Data Science Laboratory — Executáveis
+# 🧪 Data Science Laboratory
 
-**Versão 1.0.0** · Desenvolvido por **Erick de S.C. Araújo**
+**Desenvolvido por: Erick de S.C. Araújo**
+
+Aplicação desktop profissional para **aprender, simular, experimentar e compreender** Estatística, Ciência de Dados, Machine Learning, Inteligência Artificial, Inferência Causal e Engenharia de Dados — 100% local, offline-first e em Português do Brasil.
+
+> Learn. Simulate. Experiment. Understand.
+
+## O que é
+
+O Data Science Laboratory é um **laboratório interativo** com **36 experimentos** que executam matemática real (sem resultados falsos ou "fake AI"):
+
+- **Estatística** — probabilidade, distribuições, amostragem, testes de hipóteses, intervalos de confiança, poder, Monte Carlo e Teste A/B completo (frequentista + bayesiano, SRM, stopping, múltiplos testes)
+- **Análise de Dados** — exploração, limpeza, outliers e dados ausentes
+- **Machine Learning** — regressão linear/logística, KNN, K-Means, árvores, Random Forest, SVM, PCA, regularização, bias-variância e avaliação de modelos
+- **Inteligência Artificial** — gradient descent, redes neurais, embeddings, attention e transformer
+- **Inferência Causal** — correlação × causalidade, Simpson/confounding, propensity score e DiD
+- **Engenharia de Dados** — ETL/ELT, qualidade de dados, motor SQL próprio e otimização de consultas
+
+Cada laboratório segue o fluxo **Aprender → Configurar → Simular → Visualizar → Experimentar → Calcular → Explicar**, com o sistema **"Por quê?"** que explica didaticamente cada resultado (p-value, R², poder, MDE, lift, IC…), três níveis educativos e um **Data Science Playground** para combinar dataset → limpeza → modelo → avaliação em um pipeline.
+
+## Recursos
+
+| Recurso | Detalhe |
+|---|---|
+| Motor estatístico | Distribuições, testes, CI, poder, Monte Carlo e análise bayesiana implementados em TypeScript puro |
+| Motor SQL | Parser + executor SQL local com planos de execução e custos (SCAN → FILTER → JOIN → GROUP BY → AGGREGATE) |
+| Parquet | Leitor/escritor Parquet (PLAIN, sem compressão) para armazenamento colunar local |
+| Datasets | Exemplos distribuídos em `resources/datasets` (clientes, vendas, flores, teste A/B) + gerador de dados sintéticos |
+| Experimentos | Salvar, abrir, duplicar, comparar e exportar (HTML/PDF/JSON/CSV) |
+| Offline-first | Nenhuma dependência de CDN, API externa ou fonte remota |
+| Segurança | `contextIsolation`, `sandbox`, IPC validado, CSP, sem Node.js no renderer |
+
+## Requisitos
+
+- Windows 10/11 (builds de distribuição); o desenvolvimento roda em qualquer SO
+
+## Guia de Instalação
 
 Guia de instalação e uso dos executáveis compilados. Esta pasta contém o **instalador** e a **versão portátil** da aplicação desktop Data Science Laboratory — um laboratório interativo de Estatística, Ciência de Dados, Machine Learning, IA, Inferência Causal e Engenharia de Dados, 100% offline.
 
